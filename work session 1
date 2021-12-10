@@ -1,0 +1,24 @@
+#This is my first work session(during class)
+#12/10
+
+- made repository
+- trying problem 1
+
+
+sum -> 0
+three -> 1
+five -> 1
+fifteen -> 1
+
+while 3*three <= 1000 aand 5*five <= 1000 and 15*fifteen <= 1000:
+  tempthree = 3*three
+  tempfive = 5*five
+  tempfifteen = 15*fifteen
+  sum = sum + tempthree
+  sum = sum + tempfive
+  sum = sum + tempfifteen
+  three = three + 1
+  five = five + 1
+  fifteen = fifteen + 1
+  
+  
