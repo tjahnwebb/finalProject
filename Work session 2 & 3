@@ -1,0 +1,24 @@
+dec 16 12:40 to 2:00
+
+problem 3 
+
+find prime numbers
+put in list
+divide number by each number in list.
+repeat until result is one
+
+prime = []
+num = 0
+while num < 600851475143
+  if num > 1:
+    for i in range(2, num//2):
+      if (num % i) == 0:
+        prime.append(num)
+        num = num + 1
+     else:
+        num = num + 1
+  else:
+    num = num + 1
+  for pn in prime 
+  ***work session 3 dec 17 11:00 to 12:00***
+  
